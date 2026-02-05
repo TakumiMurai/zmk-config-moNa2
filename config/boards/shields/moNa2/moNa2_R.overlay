@@ -1,5 +1,5 @@
 #include "moNa2.dtsi"
-
+#include <input/processors.dtsi>
 &default_transform {
     col-offset = <6>;
 };
@@ -61,4 +61,16 @@
     };
 };
 
+&zip_temp_layer {
+    require-prior-idle-ms = <450>;
+};
+
+&zip_temp_layer {
+    excluded-positions = <
+        16 // J
+        17 // K
+        18 // L
+        27 // M
+    >;
+};
 
