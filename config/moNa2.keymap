@@ -79,7 +79,7 @@
 &kp Q               &kp L               &kp U      &kp COMMA                &kp PERIOD                                                     &kp F          &kp W  &lt 6 R  &kp Y  &kp P
 &kp E               &kp I               &kp A      &kp O                    &kp MINUS                              &kp LG(LS(N5))          &kp K          &kp T  &kp N    &kp S  &kp H
 &mt LEFT_SHIFT TAB  &kp Z               &kp X      &kp C                    &kp V        &kp F12                   &kp LG(LS(N4))          &kp G          &kp D  &lt 4 M  &kp J  &kp B
-&mt LCTRL ESCAPE    &mt LEFT_ALT GRAVE  &kp SLASH  &mt LEFT_COMMAND RETURN  &lt 1 ENTER  &lt_to_layer_0 2 LANG2    &mt LEFT_COMMAND LANG1  &kp BACKSPACE                         &kp LEFT_ALT
+&mt LCTRL ESCAPE    &mt LEFT_ALT GRAVE  &kp SLASH  &mt LEFT_COMMAND RETURN  &lt 1 SPACE  &lt_to_layer_0 2 LANG2    &mt LEFT_COMMAND LANG1  &kp BACKSPACE                         &kp LEFT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
